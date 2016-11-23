@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+body {
+    background: url("/black-painted-brick-wall-texture.jpg");
+    color: #c0c0c0 !important;
+}
+
+#welcome {
+    margin-top: 40vh;
+    height: 60vh;
+    font-family: 'Exo', sans-serif !important;
+}
+
+div {
+    margin: 10px;
+}
+
+a {
+    color: #ededed !important;
+    font-size: 26pt;
+}
+
+a:hover {
+    color: #787878 !important;
+    text-shadow: 12px 9px 2px #000000 !important;
+    text-decoration: none !important;
+}
+
+a:focus {
+    text-decoration: none !important;
+}
+
+a:active {
+    color: #656565 !important;
+}
+
+#nav {
+    right: 10px;
+    position: fixed;
+    font-family: 'Indie Flower', cursive !important;
+    top: 10px;
+}
+
+#nav > a {
+    font-size: 16pt !important;
+}
+
+.full-block {
+    height: 100vh;
+    font-size: 26pt;
+}
+
+@media (max-device-width: 720px) {
+    .full-block {
+        font-size: 18pt;
+    }
+
+    a {
+        font-size: 20pt;
+    }
+
+    #nav {
+        display: none;
+    }
+}
+
+.nav-hover {
+    text-decoration: underline;
+    color: #565656 !important;
+}
+
+.full-block > p {
+    padding-top: 5%;
+}
+
+.project {
+    font-family: 'Share Tech', sans-serif;
+}
+
+#about {
+    font-family: 'Slabo 27px', serif;
+}
+
+#contact {
+    padding-top: 5%;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.contacts {
+    font-family: 'Slabo 27px', serif;
+}
+
+a > img {
+    width: 6%;
+}
+
+.screen {
+    width: 49%;
+    margin: 1px;
+}
+
+.f-right {
+    float: right;
+}
+
+.f-left {
+    float: left;
+}
+
+.m-bottom {
+    margin-bottom: 5%;
+}
+
+#thanks {
+    padding-top: 10%;
+    font-size: 36pt;
+}
+
+
+
